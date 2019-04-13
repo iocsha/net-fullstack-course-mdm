@@ -18,5 +18,6 @@ namespace Server.Services.Checkers
         /// <param name="number">card number in any format</param>
         /// <returns>Return <see langword="true"/> if card was emitted in Alfabank </returns>
         bool CheckCardEmitter(string number);
+        int GetCardMII(string number);
     }
 }
